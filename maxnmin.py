@@ -25,7 +25,7 @@ def getMinMax(arr):
     return (mx, mn)
  if __name__ =='__main__':
      
-    arr = [1000, 11, 445, 1, 330, 3000]
+    arr = list(map(int,input().split()))
     mx, mn = getMinMax(arr)
     print("Minimum element is", mn)
     print("Maximum element is", mx)
